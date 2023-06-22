@@ -100,6 +100,7 @@ class Player(BasePlayer):
     compassion2 = make_field(label="Compassion")
     guilt2 = make_field(label="Guilt")
     boredom2 = make_field(label="Boredom")
+
     donationq = models.IntegerField(
         label="1. Are you already a donor for Save the Children?",
         choices=[[1, "Yes"], [0, "No"]],
