@@ -133,11 +133,11 @@ class Player(BasePlayer):
         label="2. Explain in the space below other thoughts and feelings associated to watching the video "
     )
     random_q = models.IntegerField(
-        label="6a. Sometimes you could be faced with the opposite timing alternative to your preference (you could prefer to 'Watch the video Before making a choice' but still sometimes be assigned to 'Watch the video After making a choice', for example). Did this possibility affected your timing decision between watching the video before or after making a choice?",
+        label="7a. Sometimes you could be faced with the opposite timing alternative to your preference (you could prefer to 'Watch the video Before making a choice' but still sometimes be assigned to 'Watch the video After making a choice', for example). Did this possibility affected your timing decision between watching the video before or after making a choice?",
         choices=[[1, "Yes"], [0, "No"], [2, "Unsure"]],
     )
     random_openq = models.LongStringField(
-        label="6b. If you answered yes to the previous question, could you elaborate why?",
+        label="7b. If you answered yes to the previous question, could you elaborate why?",
         blank=True,
     )
 
